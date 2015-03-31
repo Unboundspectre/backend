@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Spectre
+        psr4_prefix: Spectre
+        src_path: app

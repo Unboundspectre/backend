@@ -1,0 +1,15 @@
+{
+    "name":            "spectre-backend",
+    "version":         "0.0.1",
+    "private":         true,
+    "devDependencies": {
+        "gulp":         "^3.8.11",
+        "gulp-notify":  "^2.2.0",
+        "gulp-phpspec": "^0.3.1",
+        "gulp-run":     "^1.6.7"
+    },
+    "scripts":         {
+        "start":     "npm install",
+        "poststart": "gulp"
+    }
+}
